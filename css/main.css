@@ -119,7 +119,7 @@
 body {
     font-family: 'Cloister';
     font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
 
     background: #565656;
 }
@@ -173,7 +173,6 @@ div#menu > div {
 
 div#menu div {
     font-style: italic;
-    font-size: 32px;
     text-align: center;
     color: #565656;
 
@@ -208,11 +207,17 @@ div#guide {
 
 div#title, div#direction, div#distance {
     font-style: italic;
-    font-size: 32px;
 }
 
-div#title {
-    margin: 20px;
+div#title , div#distance{
+    margin: 10px;
+    padding: 10px;
+
+    border: 1px solid #565656;
+    background: #FFF;
+    color: #565656;
+
+    border-radius: 4px;
 }
 
 div#direction {
@@ -261,8 +266,8 @@ div.notCorrect {
 }
 
 div#distance {
+    display: inline-block;
     text-align: center;
-    margin: 20px;
 }
 
 span#press-to-start {
@@ -285,7 +290,7 @@ span#press-to-start {
 
     position: absolute;
     top: 0;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* INNER BOX */
@@ -302,9 +307,7 @@ div.popup p {
 }
 
 p.popup-title {
-    font-size: 24px;
     font-style: italic;
-    text-align: center;
 }
 
 .popup-button {
