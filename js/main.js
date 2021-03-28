@@ -151,7 +151,7 @@ let printDistance = (data) => {
         let meters = data * 1000 // Math.round((data * 1000) * 10) / 10
         meters = meters - (meters % 10);
 
-        distance.innerHTML = `${meters} </br>meters away`;
+        distance.innerHTML = `${meters} meters away`;
         if (data < 0.02) {
             distance.innerHTML = `You 've arrived to ${destination.name}`;
             if (!$('.popup').is(":visible")) {

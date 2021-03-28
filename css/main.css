@@ -192,6 +192,7 @@ div#guide {
     overflow: hidden;
     width: 100vw;
     height: calc(var(--vh, 1vh) * 100);
+    padding: 10px;
 
     /* background-image: linear-gradient(180deg, rgba(255, 230, 0, .5), rgba(255, 255, 255, .5) 50%, rgba(0, 71, 255, .5) 100%); */
     /* background-image: linear-gradient(180deg, #9EDCFF 0%, #FFF 50%, #92FFB0 100%); */
@@ -203,14 +204,18 @@ div#guide {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 div#title, div#direction, div#distance {
     font-style: italic;
 }
 
+div#title {
+    width: 100%;
+}
+
 div#title , div#distance{
-    margin: 10px;
     padding: 10px;
 
     border: 1px solid #565656;
