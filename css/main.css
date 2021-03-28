@@ -120,6 +120,8 @@ body {
     font-family: 'Cloister';
     font-style: normal;
     font-size: 20px;
+
+    background: #565656;
 }
 /* THE MENU AND CLOSE BUTTONS*/
 div#menu-button {
@@ -143,8 +145,8 @@ div#menu-button, div.close-button {
     height: 44px;
 
     border-radius: 50% !important;
-    background: #000 !important;
-    box-shadow: 0px 0px 10px #ccc inset !important;
+    background: #FFF !important;
+    border: 1px solid #565656;
 }
 
 div#menu {
@@ -173,13 +175,13 @@ div#menu div {
     font-style: italic;
     font-size: 32px;
     text-align: center;
-    color: #FFF;
+    color: #565656;
 
     padding: 20px;
 
-    border-radius: 24px;
-    background: #000;
-    box-shadow: 0px 0px 10px #ccc inset;
+    border-radius: 4px;
+    background: #FFF;
+    border: 1px solid #565656;
 }
 
 /* THE GUIDE */
@@ -288,15 +290,15 @@ span#press-to-start {
 
 /* INNER BOX */
 div.popup > div {
-    border-radius: 24px;
-    background: #000;
+    border-radius: 4px;
+    background: #FFF;
+    border: 1px solid #565656;
     padding: 20px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
 
 div.popup p {
     margin-bottom: 20px;
-    color: #FFF;
+    color: #565656;
 }
 
 p.popup-title {
@@ -309,19 +311,18 @@ p.popup-title {
     font-family: 'Cloister';
     font-style: italic;
     font-size: 24px;
-    color: #FFF;
+    color: #565656;
 
     cursor: pointer;
 
-    border: 0;
-    background: 0;
+    border: 1px solid #565656;
+    background: #FFF;
     
     margin: 0 auto;
     text-align: center;
     display: block;
 
-    box-shadow: 0px 0px 10px #ccc inset;
-    border-radius: 24px;
+    border-radius: 4px;
     padding: 10px 20px;
 }
 
@@ -330,7 +331,7 @@ video {
     width: 100% !important;
     height: auto !important;
 
-    border-radius: 12px;
+    border-radius: 4px;
 }
 
 div.caption {
@@ -361,9 +362,9 @@ div.caption {
 .hamburguer span {
     display: block;
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: 24px;
-    background: #FFF;
+    background: #565656;
     border-radius: 9px;
     opacity: 1;
     left: 0;

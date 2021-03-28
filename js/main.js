@@ -1,33 +1,33 @@
 let locations = [
     {
-        id: '#lidl',
-        name: 'Lidl',
-        lat: 52.5020835,
-        lng: 13.4150148
+        id: '#diandra',
+        name: 'Diandra',
+        lat: 52.512525,
+        lng: 13.342017
     },
     {
-        id: '#drachenbrunnen',
-        name: 'Drachenbrunnen',
-        lat: 52.502558,
-        lng: 13.4158633
+        id: '#otso',
+        name: 'Otso',
+        lat: 52.512709,
+        lng: 13.365682
     },
     {
-        id: '3',
-        name: 'U Kottbusser Tor',
-        lat: 52.4991524,
-        lng: 13.4182222
+        id: '#manuel',
+        name: 'Manuel',
+        lat: 52.5116737,
+        lng: 13.3621917
     },
     {
-        id: '4',
-        name: 'Hopscotch Reading Room',
-        lat: 52.4996916,
-        lng: 13.3668128
+        id: '#paula',
+        name: 'Paula',
+        lat: 52.512070,
+        lng: 13.360996
     },
     {
-        id: '#schinkestrasse',
-        name: 'Schinkestraße',
-        lat: 52.4947802,
-        lng: 13.422286
+        id: '#louise',
+        name: 'Louise',
+        lat: 52.30453,
+        lng: 13.21439
     }
 ];
 
