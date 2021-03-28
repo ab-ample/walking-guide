@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiergarten Guide</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+</body>
+    <!-- PERMISSIONS -->
+    <div class="popup" id="permissions" style="display: block;">
+        <div>
+            <p class="popup-title">Geolocation & Orientation</p>
+            <p>La geolocalización es utilizada con el fin de calcular la distancia entre tu posición y los espacios expositivos. Esta información no es almacenada en ningún servidor y los datos son utilizados únicamente durante el uso de la web.</p>
+            <p>La orientación del dispositivo es utilizada para guiarte en la dirección correcta en la que se encuentra la obra.</p>
+            <p>El uso de estos datos son los que te permiten utilizar la guía para poder visitar los diferentes espacios en Tiergarten. Para ello necesitamos tu consentimiento explícito pulsando en el botón inferior.</p>
+            <button class="popup-button" id="start" onclick="requestDeviceOrientation(this)">Start</button>
+        </div>
+    </div>
+    <!-- THE CONTENT -->
+    <!-- ABOUT -->
+    <div class="popup" id="about" style="display: none;">
+        <div class="close-button hamburguer open">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p class="popup-title">About</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus vitae voluptatibus ipsam beatae, excepturi qui inventore eaque fugit reiciendis ipsum pariatur illum error in exercitationem rem quisquam. Id, necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis quae et voluptatum natus quas totam sint quidem, doloribus porro consectetur. Nulla tenetur ex quod praesentium cumque consequuntur sunt fugiat.</p>
+        </div>
+    </div>
+    <!-- TUTORIAL -->
+    <div class="popup" id="tutorial" style="display: none;">
+        <div class="close-button hamburguer open">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p class="popup-title">Tutorial</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus vitae voluptatibus ipsam beatae, excepturi qui inventore eaque fugit reiciendis ipsum pariatur illum error in exercitationem rem quisquam. Id, necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis quae et voluptatum natus quas totam sint quidem, doloribus porro consectetur. Nulla tenetur ex quod praesentium cumque consequuntur sunt fugiat.</p>
+        </div>
+    </div>
+    <!-- PROJECTS -->
+    <div class="popup" id="lidl" style="display: none;">
+        <div class="close-button hamburguer open">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p class="popup-title">Lidl</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus vitae voluptatibus ipsam beatae, excepturi qui inventore eaque fugit reiciendis ipsum pariatur illum error in exercitationem rem quisquam. Id, necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis quae et voluptatum natus quas totam sint quidem, doloribus porro consectetur. Nulla tenetur ex quod praesentium cumque consequuntur sunt fugiat.</p>
+            <video controls>
+                <source src="assets/video/1/IMG_0401.mp4" type="video/mp4" />
+            </video>
+            <div class="caption">Birds food bag hanging on a tree</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae eum officia earum assumenda iste est et. Id perspiciatis illum, nisi voluptatibus, quia debitis, amet commodi vero minima laborum sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas provident pariatur expedita id non voluptatem excepturi, ut ipsum magni cum odit tempora, deserunt placeat consequatur quas illum eligendi totam.</p>
+        </div>
+    </div>
+    <div class="popup" id="drachenbrunnen" style="display: none;">
+        <div class="close-button hamburguer open">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p class="popup-title">Drachenbrunnen</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus vitae voluptatibus ipsam beatae, excepturi qui inventore eaque fugit reiciendis ipsum pariatur illum error in exercitationem rem quisquam. Id, necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis quae et voluptatum natus quas totam sint quidem, doloribus porro consectetur. Nulla tenetur ex quod praesentium cumque consequuntur sunt fugiat.</p>
+            <video controls>
+                <source src="assets/video/1/IMG_0401.mp4" type="video/mp4" />
+            </video>
+            <div class="caption">Birds food bag hanging on a tree</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae eum officia earum assumenda iste est et. Id perspiciatis illum, nisi voluptatibus, quia debitis, amet commodi vero minima laborum sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas provident pariatur expedita id non voluptatem excepturi, ut ipsum magni cum odit tempora, deserunt placeat consequatur quas illum eligendi totam.</p>
+        </div>
+    </div>
+    <div class="popup" id="schinkestrasse" style="display: none;">
+        <div class="close-button hamburguer open">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <p class="popup-title">Drachenbrunnen</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus vitae voluptatibus ipsam beatae, excepturi qui inventore eaque fugit reiciendis ipsum pariatur illum error in exercitationem rem quisquam. Id, necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis quae et voluptatum natus quas totam sint quidem, doloribus porro consectetur. Nulla tenetur ex quod praesentium cumque consequuntur sunt fugiat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae eum officia earum assumenda iste est et. Id perspiciatis illum, nisi voluptatibus, quia debitis, amet commodi vero minima laborum sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptas provident pariatur expedita id non voluptatem excepturi, ut ipsum magni cum odit tempora, deserunt placeat consequatur quas illum eligendi totam.</p>
+        </div>
+    </div>
+    <!-- THE MENU -->
+    <div id="menu-button" class="hamburguer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="menu" style="display: none;">
+        <div id="about-button">About</div>
+        <div id="tutorial-button">Tutorial</div>
+    </div>
+    <!-- THE GUIDE -->
+    <div id="guide">
+        <div id="title"></div>
+        <div id="direction" class="notCorrect"><span id="press-to-start">Press to start</span></div>
+        <div id="distance"></div>
+    </div>
+    <script src="js/resize.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

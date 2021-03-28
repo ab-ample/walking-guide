@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cloister';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/LTCCloister-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cloister';
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/LTCCloister-LightCursive.otf') format('opentype');
+}
