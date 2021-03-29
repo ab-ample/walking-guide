@@ -26,8 +26,8 @@ let locations = [
     {
         id: '#louise',
         name: 'Louise',
-        lat: 52.30453,
-        lng: 13.21439
+        lat: 52.512583,
+        lng: 13.362194
     }
 ];
 

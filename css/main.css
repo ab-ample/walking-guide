@@ -1,43 +1,43 @@
 /* CORRECT AND NOT CORRECT DIRECTION */
 /* STANDARD */
 @keyframes correct {
-    from { box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
-    to { box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
+    from { box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
+    to { box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
 }
 
 @keyframes notCorrect {
-    from { box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
-    to { box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
+    from { box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
+    to { box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
 }
 /* WEBKIT */
 @-webkit-keyframes correct {
-    from { -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
-    to { -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
+    from { -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
+    to { -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
 }
 
 @-webkit-keyframes notCorrect {
-    from { -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
-    to { -webkit-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
+    from { -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
+    to { -webkit-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
 }
 /* FIREFOX */
 @-moz-keyframes correct {
-    from { -moz-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
-    to { -moz-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
+    from { -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
+    to { -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
 }
 
 @-moz-keyframes notCorrect {
-    from { -moz-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
-    to { -moz-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
+    from { -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
+    to { -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
 }
 /* MICROSOFT */
 @-ms-keyframes correct {
-    from { -ms-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
-    to { -ms-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
+    from { -ms-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
+    to { -ms-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
 }
 
 @-ms-keyframes notCorrect {
-    from { -ms-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset; }
-    to { -ms-box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset; }
+    from { -ms-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset; }
+    to { -ms-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset; }
 }
 
 /* SLIDE POP UPS */
@@ -127,8 +127,8 @@ body {
 div#menu-button {
     z-index: 9999;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
 }
 
 div.close-button {
@@ -257,7 +257,7 @@ div.correct {
     -o-animation: correct 1s;
     animation: correct 1s;
 
-    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0) inset;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0) inset;
 }
 
 div.notCorrect {
@@ -267,7 +267,7 @@ div.notCorrect {
     -o-animation: notCorrect 1s;
     animation: notCorrect 1s;
 
-    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.8) inset;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8) inset;
 }
 
 div#distance {
